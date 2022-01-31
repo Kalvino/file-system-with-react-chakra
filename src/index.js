@@ -20,7 +20,7 @@ const theme = extendTheme({ colors })
  ReactDOM.render(
   <React.StrictMode>
    <ChakraProvider theme={theme}>
-      <ColorModeScript initialColorMode="light"></ColorModeScript>
+       <ColorModeScript initialColorMode="light"></ColorModeScript>
       <App />
    </ChakraProvider>
   </React.StrictMode>,
